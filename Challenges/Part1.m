@@ -18,8 +18,8 @@
 
 %% File Names
 
-% If your looking for particular file names the functions strcmp and strcmp
-% can be useful!
+% If your looking for particular file names the functions strcmp and
+% strfind can be useful!
 
 %% CHALLENGE TWO
 
