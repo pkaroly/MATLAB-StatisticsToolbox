@@ -34,13 +34,14 @@
 % 17 Collins Place (South)
 % 18 Collins Place (North)
 
-
 % Two tools that are used again and again when exploring data are scatter
 % plots and histograms
 
 % scatter
 
+
 % hist
+
 
 % NOTE both of these types of plots can also be achieved using the plot
 % function

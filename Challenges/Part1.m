@@ -31,11 +31,27 @@
 %% CHALLENGE THREE
 % Can you use regexp to find:
 
-% 1)
+% 1) The index at the at start of the word 'cat' in the sentence 'the cat sat on the mat'
 
-% 2)
+string = 'the cat sat on the mat';
+pattern = 
+regexp(string,pattern)
 
-% 3)
+% 2) The indices at the start of the words 'cat' and 'mat'
+
+pattern = 
+regexp(string,pattern)
+
+% 3) The words that start with 'c' and end in 't' in the following list
+
+word_list = {'cat', 'mat', 'hat', 'cot'};
+pattern = 
+regexp(word_list,pattern)
+
+% EXTENSION
+% Can you write code that only extracts the day (as a number) from the following list of patient files
+
+file_list = {'Pt1Day14', 'Pt12Day102', 'Pt009Day9'};
 
 %% CHALLENGE
 % loop through the files and read in the four excel datasheets
@@ -46,6 +62,7 @@
 % chronological order
 
 %% Converting Data
+
 
 
 %% CHALLENGE
