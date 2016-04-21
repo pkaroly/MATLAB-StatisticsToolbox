@@ -3,9 +3,7 @@
 %% Open data is everywhere!
 
 % Go to https://data.melbourne.vic.gov.au/ and see how many data sources
-% they have data on all aspects of Melbourne life! (seriously! look no further if you need
-% to know the locations of all the public toilets, or the gradient of every
-% footpath....)
+% they have data on all aspects of Melbourne life!
 
 %% Example: Data of pedestrian numbers in the CBD
 
