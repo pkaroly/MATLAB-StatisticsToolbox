@@ -30,7 +30,6 @@ s = scatter(BourkeN,BourkeS,'markerfacecolor',[76 153 0]/255,...
     'markerfacealpha',0.5);
 set(gca,'fontname','arial','fontsize',8)
 % plot(BourkeN,BourkeS,'rx')
-title('Caviar')
 xlabel('N people per hour - Bourke St North')
 ylabel('N people per hour - Bourke St South')
 
