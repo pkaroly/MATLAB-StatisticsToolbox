@@ -2,7 +2,7 @@ clear
 close all
 clc
 
-load('C:\Users\pkaroly\Documents\GitHub\MATLAB-StatisticsToolbox\PedCounts.mat')
+load('PedCounts.mat')
 
 nans = find(isnan(Sensor_ID));
 
