@@ -36,7 +36,7 @@ histogram(FlindersWeekday,0:100:max(FlindersWeekday));
 hold on
 histogram(FlindersWeekend,0:100:max(FlindersWeekend));
 % legend 
-legend({'8am-9am','11am-12pm'})
+legend({'Weekday','Weekend'})
 xlabel('Pedestrian Numbers')
 ylabel('PDF')
 
