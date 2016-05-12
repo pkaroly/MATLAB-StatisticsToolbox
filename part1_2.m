@@ -1,4 +1,6 @@
 clear
+close
+clc
 
 Data = dir('HousePriceData');
 
