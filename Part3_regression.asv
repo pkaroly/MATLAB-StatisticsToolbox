@@ -29,8 +29,6 @@ BourkeS = BourkeS(same_dateS);
 scatter(BourkeN,BourkeS)
 corr(BourkeN,BourkeS)
 
-[linear_coeff,~,stats] = glmfit(BourkeN,BourkeS);
+linear_coeff = glmfit(BourkeN,BourkeS);
 
 hold on;
-plot(BourkeN,linear_coeff(1) + ...
-    linear_coeff(2) * BourkeN);
