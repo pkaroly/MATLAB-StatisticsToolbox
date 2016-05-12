@@ -49,6 +49,13 @@ x2 = mu2 + sigma2*randn(100,1);
 
 % input
 x = [x1 ; x2];
+
+% randomly choose training data and test data from x
+random_ind = randperm(length(x));
+N = round(0.8 * length(x));
+training_x = x(random_ind(1:N));
+testing_x = x(random_ind(N+1:end));
+
 % label
 y = [zeros(size(x1)) ; ones(size(x2))];
 
